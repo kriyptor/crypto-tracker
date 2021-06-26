@@ -1,0 +1,133 @@
+.coin-container{
+    display: flex;
+    justify-content: center;
+}
+
+.coin-row{
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px;
+}
+
+.coin{
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+}
+
+.coin h1{
+    font-size: 16px;
+    width: 150px;
+}
+
+.coin img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.coin-symbol{
+    text-transform: uppercase;
+}
+
+.coin-data{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.coin-price{
+    width: 110px;
+}
+
+.coin-volume{
+    width: 155px;
+}
+
+.coin-marketcap{
+    width: 250px;
+}
+
+.coin-percent{
+    width: 90px;
+}
+
+.red{
+    color: #f00606;
+}
+
+.green{
+    color: #11d811;
+}
+
+@media only screen and (max-width: 600px) {
+    .coin-container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .coin-row{
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        height: 80px;
+        border-bottom: 1px solid #d7d7d7;
+        width: 300px;
+    }
+    
+    .coin{
+        display: flex;
+        align-items: center;
+        padding-right: 14px;
+        min-width: 200px;
+    }
+    
+    .coin h1{
+        font-size: 10px;
+        width: 80px;
+    }
+    
+    .coin img{
+        height: 25px;
+        width: 25px;
+        margin-right: 25px;
+    }
+    
+    .coin-symbol{
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .coin-data{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        width: 95px;
+    }
+    
+    .coin-price{
+        width: 95px;
+        font-size: 16px;
+    }
+    
+    .coin-volume{
+        display: none;
+    }
+    
+    .coin-marketcap{
+       display: none;
+    }
+    
+    .coin-percent{
+        display: none;
+    }
+  }
